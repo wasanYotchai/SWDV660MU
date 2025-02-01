@@ -5,7 +5,7 @@ http.createServer(function (request, response) {
     response.writeHead(200, { 'Content-Type': 'text/plain' });
 
     // Send the response body
-    response.end('Welcome to my Week 2 Custom App! by Wasan\n');
+    response.end('Welcome to my Week 3 Custom App! by Wasan\n');
 }).listen(3333, "0.0.0.0");  // Bind to all network interfaces
 
 // Console will print the message
